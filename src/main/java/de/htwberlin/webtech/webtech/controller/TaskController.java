@@ -1,4 +1,4 @@
-package controller;
+package de.htwberlin.webtech.webtech.controller;
 
 import de.htwberlin.webtech.webtech.Task;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/tasks")
+@RequestMapping("/task")
 @CrossOrigin(origins = "*") // erlaubt Zugriff vom Frontend (Vue.js)
 public class TaskController {
 
